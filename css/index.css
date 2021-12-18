@@ -76,6 +76,7 @@ header {
   text-align: center;
   padding-top: 130px;
   background-color: #fffbf7;
+
 }
 
 header .intro {
@@ -135,6 +136,11 @@ header .button-header button {
 
 .input-button input::placeholder {
   color: #c3c2c4;
+}
+
+#publish {
+
+   margin-bottom: 50px;
 }
 
 #publish .text-publish .input-publish {

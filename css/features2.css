@@ -1,0 +1,91 @@
+.features2 {
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  
+  .features2 .fcard {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .features2 .fcard .fcontent {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  
+  .features2 .fcard .fcontent > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .features2 .fcard .fcontent img {
+    width: 20px;
+  }
+  
+  .features2 .fcard .fcontent h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #0f5758;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .features2 .fcard .fcontent p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  
+  .features2 .fcard .fcontent a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  
+  .features2 .fcard .fimage figure {
+    margin-top: 0;
+    display:flex;
+    align-content: flex-start;
+  }
+
+  .features2 .fcard .fimage img {
+    width: 90%;
+    margin-top: 0;
+    display:flex;
+    align-content: flex-end;
+
+  }
+
+  #how {
+    text-align: center;
+  }
+
+  #how h4 {
+    font-size: 40px;
+    color: #0f5758;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  #how p {
+    font-size: 20px;
+    color: #78787a;
+  }
+
+
+  #how button {
+    height: 55px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #0f5758;
+    background-color: #0f5758;
+    color: white;
+  }
